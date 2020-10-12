@@ -24,7 +24,6 @@ CheckingPointHash = 'eb3692aa10723d1d3fca8a55eb78cbc9318c7a07'
 
 UUID = 'e143708f-ef1e-4723-9e9a-94463060a012'
 user_id  = 'e143708f-ef1e-4723-9e9a-94463060a012'
-guid  = 'e143708f-ef1e-4723-9e9a-94463060a012'
 
 ThisIsALongString = 'CanALongStringFoolTheAlgorithms01234567890'
 
