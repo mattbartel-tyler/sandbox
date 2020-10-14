@@ -239,3 +239,4 @@
 
   [[Rules.Entropies]]
     Min = "4.1"
+    Max = "5.7"
