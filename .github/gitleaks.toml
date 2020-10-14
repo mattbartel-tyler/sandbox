@@ -231,8 +231,15 @@
 
 [[Rules]]
   Description = "Generic secret"
-  Regex = '''(?i)key(.{0,20})?['|"][0-9a-zA-Z]{16,45}['|"]'''
+  Regex = "(?i)key(.{0,20})?['|\"][0-9a-zA-Z]{16,45}['|\"]"
+  File = ""
+  Path = ""
   Tags = ["key", "generic"]
+
   [[Rules.Entropies]]
     Min = "4.1"
     Max = "5.7"
+    Group = ""
+  [Rules.AllowList]
+    Description = ""
+    Regexes = ["key = '0E362922CFCA53ACF8BF929887715D8785919159'"]
