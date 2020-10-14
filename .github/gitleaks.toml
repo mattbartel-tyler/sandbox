@@ -10,6 +10,7 @@
   Tags = ["key", "AWS"]
   [Rules.AllowList]
     Description = ""
+    Regexes = ["yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj"]
 
 [[Rules]]
   Description = "AWS Secret Key"
@@ -19,6 +20,7 @@
   Tags = ["key", "AWS"]
   [Rules.AllowList]
     Description = ""
+    Regexes = ["yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj"]
 
 [[Rules]]
   Description = "AWS MWS key"
