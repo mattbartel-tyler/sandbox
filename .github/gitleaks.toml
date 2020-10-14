@@ -3,13 +3,14 @@
   Files = ["^\\.?gitleaks.toml$", "(.*?)(jpg|gif|doc|pdf|bin)$", "(go.mod|go.sum)$"]
 
 [[Rules]]
-  Description = "AWS Manager ID TESTING"
+  Description = "AWS Manager ID TESTING TESTING"
   Regex = "(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}"
   File = ""
   Path = ""
   Tags = ["key", "AWS"]
   [Rules.AllowList]
     Description = ""
+    Regexes = ["yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj"]
 
 [[Rules]]
   Description = "AWS Secret Key"
@@ -19,6 +20,7 @@
   Tags = ["key", "AWS"]
   [Rules.AllowList]
     Description = ""
+    Regexes = ["yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj"]
 
 [[Rules]]
   Description = "AWS MWS key"
