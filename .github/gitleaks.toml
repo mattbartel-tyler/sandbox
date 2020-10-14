@@ -10,7 +10,6 @@
   Tags = ["key", "AWS"]
   [Rules.AllowList]
     Description = ""
-    Regexes = ["aws_api_key = 'yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'"]
 
 [[Rules]]
   Description = "AWS Secret Key"
@@ -20,7 +19,6 @@
   Tags = ["key", "AWS"]
   [Rules.AllowList]
     Description = ""
-    Regexes = ["aws_api_key = 'yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'"]
 
 [[Rules]]
   Description = "AWS MWS key"
@@ -228,3 +226,10 @@
   Tags = ["key", "twilio"]
   [Rules.AllowList]
     Description = ""
+
+[[Rules]]
+  Description = "Generic secret"
+  Regex = '''(secret|key|password|pass)(.{0,20})([0-9a-zA-Z-._{}$\/\+=]{20,120})'''
+  [[Rules.Entropies]]
+    Min = "4.5"
+    Max = "4.7"
