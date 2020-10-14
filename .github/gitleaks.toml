@@ -3,7 +3,7 @@
   Files = ["^\\.?gitleaks.toml$", "(.*?)(jpg|gif|doc|pdf|bin)$", "(go.mod|go.sum)$"]
 
 [[Rules]]
-  Description = "AWS Manager ID TESTING TESTING"
+  Description = "AWS Manager ID"
   Regex = "(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}"
   File = ""
   Path = ""
