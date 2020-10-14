@@ -229,7 +229,8 @@
 
 [[Rules]]
   Description = "Generic secret"
-  Regex = '''(secret|key|password|pass)(.{0,20})([0-9a-zA-Z-._{}$\/\+=]{20,120})'''
+  Regex = '''(?i)key(.{0,20})?['|"][0-9a-zA-Z]{16,45}['|"]'''
+  Tags = ["key", "generic"]
   [[Rules.Entropies]]
     Min = "4.5"
-    Max = "4.7"
+    Max = "5.7"
