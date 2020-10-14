@@ -228,3 +228,11 @@
   Tags = ["key", "twilio"]
   [Rules.AllowList]
     Description = ""
+
+[[Rules]]
+  Description = "Generic secret"
+  Regex = '''(?i)key(.{0,20})?['|"][0-9a-zA-Z]{16,45}['|"]'''
+  Tags = ["key", "generic"]
+  [[Rules.Entropies]]
+    Min = "4.1"
+    Max = "5.7"
