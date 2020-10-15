@@ -2,8 +2,6 @@
   Description = "Allowlisted files"
   Files = ["^\\.?gitleaks.toml$", "(.*?)(jpg|gif|doc|pdf|bin)$", "(go.mod|go.sum)$"]
 
-[AllowList]
-  Regexes = [ '''yR\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj''' ]
 
 [[Rules]]
   Description = "AWS Manager ID"
