@@ -2,6 +2,9 @@
   Description = "Allowlisted files"
   Files = ["^\\.?gitleaks.toml$", "(.*?)(jpg|gif|doc|pdf|bin)$", "(go.mod|go.sum)$"]
 
+[AllowList]
+  Regexes = [ '''yR\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj''' ]
+
 [[Rules]]
   Description = "AWS Manager ID"
   Regex = "(A3T[A-Z0-9]|AKIA|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{16}"
@@ -10,7 +13,6 @@
   Tags = ["key", "AWS"]
   [Rules.AllowList]
     Description = ""
-    Regexes = ["aws_api_key = 'yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'", "aws_api_credential = 'yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'"]
 
 [[Rules]]
   Description = "AWS Secret Key"
@@ -20,7 +22,6 @@
   Tags = ["key", "AWS"]
   [Rules.AllowList]
     Description = ""
-    Regexes = ["aws_api_key = 'yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'", "aws_api_credential = 'yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'"]
 
 [[Rules]]
   Description = "AWS MWS key"
@@ -230,10 +231,3 @@
   [Rules.AllowList]
     Description = ""
 
-[[Rules]]
-  Description = "Generic secret"
-  Regex = '''(?i)key(.{0,20})?['|"][0-9a-zA-Z]{16,45}['|"]'''
-  Tags = ["key", "generic"]
-  [[Rules.Entropies]]
-    Min = "4.1"
-    Max = "5.7"
