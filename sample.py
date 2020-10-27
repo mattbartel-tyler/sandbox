@@ -4,6 +4,7 @@
 
 aws_api_key = 'yR+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'
 aws_api_key = 'zR+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'
+aws_api_key = 'aR+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'
 aws_api_credential = 'yR+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'
 
 api_key_github = 'eb3692aa10723d1d3fca8a55eb78cbc9318c7a07'
