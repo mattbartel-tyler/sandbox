@@ -1,2 +1,2 @@
 [AllowList]
-  Regexes = ["yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj", "rLVHFDxW1MCDKeZHL9y160vWiN5djXXeV6Bmckq4", "aws_api_key = 'zR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'"]
+  Regexes = ["yR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj", "rLVHFDxW1MCDKeZHL9y160vWiN5djXXeV6Bmckq4", "aws_api_key = 'zR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'", "aws_api_key = 'aR\\+uWwIZp6ihFgaHV8410b2BxbRt5QiAj1EZx1qj'"]
