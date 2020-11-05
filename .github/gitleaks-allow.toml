@@ -1,3 +1,2 @@
 [AllowList]
-  Regexes = ["`pAssembly=`"]
-Files = ["sample\\.py"]
+  Files = ["sample\\.py"]
