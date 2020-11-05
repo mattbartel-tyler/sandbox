@@ -1,3 +1,0 @@
-[AllowList]
-  Regexes = ["pAssembly="]
-Files = ["sample\\.py"]
