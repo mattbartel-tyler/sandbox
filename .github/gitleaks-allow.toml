@@ -1,2 +1,0 @@
-[AllowList]
-  Files = ["sample with spaces +\\.[a-z]{2,4}"]
