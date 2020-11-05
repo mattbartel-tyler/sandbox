@@ -1,3 +1,3 @@
 [AllowList]
-  Paths = ["test\\/"]
+  Files = ["test\\/sample\\.py"]
 
