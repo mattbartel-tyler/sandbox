@@ -1,0 +1,2 @@
+[AllowList]
+  Files = ["sample\\.py"]
