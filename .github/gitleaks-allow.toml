@@ -1,3 +1,0 @@
-[AllowList]
-  Regexes = ["pAssembly=\"@typeof\\(Program\\)\\.Assembly\""]
-Files = ["sample\\.py"]
