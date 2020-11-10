@@ -1,2 +1,2 @@
 [AllowList]
-  Files = ["test/sample\\.py"]
+  Files = ["test/sample\\.py", "sample\\.py"]
