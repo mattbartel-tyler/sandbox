@@ -20,6 +20,7 @@ app_key = '9a3b106e41776d6567e13120910f3136'
 app_password = '9a3b106e41776d6567e13120910f3136'
 
 ConnectionString = "MySql:ConnectionString": "Server=petregmariadb;Port=3307;Database=dapper-registration-api;Uid=root;Pwd=password;SslMode=None"
+ConnectionString = "MySql:ConnectionString": "Server=supersecretserver;Port=3307;Database=dapper-registration-api;Uid=root;Pwd=password;SslMode=None"
 LocalConnectionString = "User ID=root;Password=myPassword;Host=localhost;Port=5432;Database=myDataBase;Pooling=true;Min Pool Size=0;Max Pool Size=100;Connection Lifetime=0;"
 
 SqlUri = "postgresql://user:secret@myserver"
