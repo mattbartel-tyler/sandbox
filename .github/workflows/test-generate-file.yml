@@ -20,3 +20,8 @@ jobs:
           git add thedate.txt
           git commit -m "generated a file from actions"
           git push origin HEAD:${GITHUB_HEAD_REF#refs/heads/}
+  something-else:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "some other test"
