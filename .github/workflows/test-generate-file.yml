@@ -25,3 +25,4 @@ jobs:
     steps:
       - run: |
           echo "some other test"
+          exit 1
