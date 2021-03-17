@@ -14,7 +14,7 @@ jobs:
       - run: |
           echo "let's wait a bit"
           sleep 20s
-          date -u +%Y-%m-%d > thedate.txt
+          date -u +%Y-%m-%dT%H-%M-%S > thedate.txt
           git config --global user.name "GitHub Actions"
           git config --global user.email "GitHub Actions"
           git add thedate.txt
