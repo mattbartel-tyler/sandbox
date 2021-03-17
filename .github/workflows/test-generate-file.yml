@@ -1,0 +1,22 @@
+name: test-generate-file
+on:
+  pull_request:
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (PR)
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
+      - run: |
+          echo "let's wait a bit"
+          sleep 20s
+          date -u +%Y-%m-%d > thedate.txt
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "GitHub Actions"
+          git add thedate.txt
+          git commit -m "generated a file from actions"
+          git push origin HEAD:${GITHUB_HEAD_REF#refs/heads/}
