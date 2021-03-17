@@ -18,7 +18,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "GitHub Actions"
           git add thedate.txt
-          git commit -m "generated a file from actions\n\nskip-checks: true"
+          git commit -m "generated a file from actions" -m "skip-checks: true"
           git push origin HEAD:${GITHUB_HEAD_REF#refs/heads/}
   something-else:
     runs-on: ubuntu-latest
